@@ -4,4 +4,4 @@ Disallow: /_astro/
 User-agent: *
 Allow: /
 
-Sitemap: https://usama.buildberg.com/sitemap-index.xml
+Sitemap: https://usama.buildberg.co/sitemap-index.xml
