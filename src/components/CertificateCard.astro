@@ -1,0 +1,82 @@
+---
+import Badge from "@components/Badge.astro";
+import { Image } from "astro:assets";
+import { Icon } from 'astro-icon'
+
+interface Props {
+  title: string;
+  img: string;
+  author: string;
+  year: number;
+  reading: boolean | undefined;
+  loading: "eager" | undefined;
+  name: string;
+  plateform: string;
+  date: string;
+  credentialid: string;
+  credentialurl: string | undefined;
+  skills: string[];
+  time: string;
+}
+const {
+  title,
+  img,
+  author,
+  year,
+  reading = false,
+  loading = "lazy",
+  name = "Course",
+  plateform = "Coursera",
+  date = "2021-08-01",
+  credentialid = "123456789",
+  credentialurl,
+  skills = ["skill1", "skill2"],
+  time = "1h",
+
+} = Astro.props;
+---
+<a href={credentialurl} target="_blank" rel="noopener noreferrer">
+<li class="list-none w-full">
+  <article class="sm:flex sm:gap-10">
+    <div class="overflow-hidden rounded-lg sm:w-92">
+      <Image
+        src={img}
+        alt={title}
+        width={600}
+        height={900}
+        loading={loading}
+        class="w-full"
+      />
+    </div>
+    <div class="w-full pt-6 sm:py-0">
+      <h2
+        class="mb-1 space-x-2 text-xl font-semibold dark:text-white text-zinc-700"
+      >
+        {name}
+      </h2>
+      <span class="flex items-center my-4 text-sm dark:text-zinc-400 text-zinc-600 hover:underline">
+        <Icon pack="mdi" name="tick-decagram" class="w-6 h-6 mr-1"/>
+        {credentialid}
+      </span>
+      <div class="mb-2 flex flex-col gap-2 sm:flex-row sm:items-baseline">
+        <p class="space-x-0.5 text-sm dark:text-zinc-400 text-zinc-600">
+          <span class="pr-0 sm:pr-2">{time}</span>{" "}
+          <span class="pr-0 sm:pr-2">&middot;</span>
+          <span class="pr-0 sm:pr-2">{date}</span>
+        </p>
+        
+        {plateform && <Badge text={plateform} color="red" />}
+      </div>
+      <ul class="flex flex-wrap gap-2 mt-2">
+        {
+          skills.map((item) => (
+            <li class="dark:bg-zinc-700 bg-zinc-200 text-zinc-800 dark:text-zinc-300 rounded-md px-2 py-1 text-sm hover:bg-zinc-300 dark:hover:bg-zinc-600">
+              {item}
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </article>
+</li>
+</a>

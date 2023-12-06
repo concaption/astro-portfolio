@@ -1,0 +1,40 @@
+---
+import AppLayout from "@layouts/AppLayout.astro";
+import Header from "@components/Header.astro";
+import CertificateCard from "@components/CertificateCard.astro";
+import { certficates } from "@data/certificates";
+---
+
+<AppLayout title="Certificates | Usama Navid">
+  <Header title="Certificates" />
+  <p
+    class="max-w-prose mb-10 font-normal dark:text-zinc-400 text-zinc-600 leading-relaxed"
+  >
+    I have been learning and working on different technologies and tools. I
+    have also been learning from different platforms and have been awarded
+    certificates for my work. Here are some of the certificates that I have
+    been awarded.
+  </p>
+  <ul
+    class="grid grid-cols-1 justify-items-center gap-10 md:justify-items-start"
+  >
+    {
+      certficates.map((certficate) => (
+        <CertificateCard
+          name={certficate.name}
+          credentialurl={certficate.credentialurl}
+          credentialid={certficate.credentialid}
+          skills={certficate.skills}
+          date={certficate.date}
+          time={certficate.time}
+          title="Certificate"
+          img={certficate.img}
+          author={certficate.author}
+          year={certficate.year}
+          reading={certficate.reading}
+          loading={certficate.loading}
+        />
+      ))
+    }
+  </ul>
+</AppLayout>
