@@ -17,7 +17,7 @@ export default defineConfig({
   image: {
     service: sharpImageService()
   },
-  site: "https://www.kevinzunigacuellar.com",
+  site: "https://www.usama.buildberg.com",
   vite: {
     plugins: [rawFonts([".ttf", ".woff"])],
     optimizeDeps: {

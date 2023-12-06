@@ -86,6 +86,6 @@ const layoutOptions = {
 
 ## Final thoughts
 
-I hope you find this package useful. If you have any questions or suggestions, feel free to raise an issue on [GitHub](https://github.com/kevinzunigacuellar/astro-layouts). I would appreciate any feedback. If you like the package, please consider giving it a star.
+I hope you find this package useful. If you have any questions or suggestions, feel free to raise an issue on [GitHub](https://github.com/concaption/astro-layouts). I would appreciate any feedback. If you like the package, please consider giving it a star.
 
 Writing this package was a lot of fun, and it provided me with valuable insights into the workings of npm packages and their publication process. I'm excited to create more packages in the future. Thank you for reading!

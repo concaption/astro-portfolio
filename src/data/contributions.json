@@ -2,7 +2,7 @@
   {
     "name": "remark-code-title",
     "stars": 13,
-    "url": "https://github.com/kevinzunigacuellar/remark-code-title",
+    "url": "https://github.com/concaption/remark-code-title",
     "description": "🔌 remark plugin to add titles to code blocks",
     "languages": [
       "TypeScript"
@@ -12,7 +12,7 @@
   {
     "name": "astro-layouts",
     "stars": 25,
-    "url": "https://github.com/kevinzunigacuellar/astro-layouts",
+    "url": "https://github.com/concaption/astro-layouts",
     "description": "Add folder-based layouts to astro pages",
     "languages": [
       "TypeScript"

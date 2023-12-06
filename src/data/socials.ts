@@ -1,8 +1,8 @@
-export const twitter = "@kevinzunigacuel";
-export const author = "Kevin Zuniga Cuellar";
+export const twitter = "@concaption";
+export const author = "Usama Navid";
 
 export const defaultMeta = {
-  title: "Kevin Zuniga Cuellar",
+  title: "Usama Navid",
   description:
     "Welcome to my personal website! I am a software engineering student. I'm passionate about building software that helps developers to be more productive",
   ogImage: {
