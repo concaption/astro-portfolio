@@ -17,7 +17,7 @@ export default defineConfig({
   image: {
     service: sharpImageService()
   },
-  site: "https://www.usama.buildberg.co",
+  site: "https://usama.buildberg.co",
   vite: {
     plugins: [rawFonts([".ttf", ".woff"])],
     optimizeDeps: {
