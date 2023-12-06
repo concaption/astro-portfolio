@@ -1,4 +1,4 @@
-# kevinzunigacuellar.com
+# usama.buildberg.co
 
 A minimal, responsive, and accessible personal website built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
 

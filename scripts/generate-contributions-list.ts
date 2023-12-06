@@ -44,7 +44,7 @@ const graphqlQuery = `query {
 }
 }`;
 
-const GITHUB_USERNAME = "kevinzunigacuellar";
+const GITHUB_USERNAME = "concaption";
 
 const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN,
