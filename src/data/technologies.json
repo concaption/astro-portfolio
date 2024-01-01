@@ -1,26 +1,54 @@
 [
   {
-    "logo":"simple-icons:astro",
-    "text":"Astro"
-  },
-  {
-    "logo":"vscode-icons:file-type-typescript-official",
-    "text":"TypeScript"
+    "logo":"simple-icons:flask",
+    "text":"Flask"
   },
   {
     "logo":"vscode-icons:file-type-python",
     "text":"Python"
   },
   {
+    "logo":"vscode-icons:file-type-django",
+    "text":"Django"
+  },
+  {
+    "logo":"logos:pytorch",
+    "text":"PyTorch"
+  },
+  {
+    "logo":"logos:tensorflow",
+    "text":"TensorFlow"
+  },
+  {
+    "logo":"logos:aws",
+    "text":"AWS"
+  },
+  {
+    "logo":"vscode-icons:folder-type-gcp",
+    "text":"GCP"
+  },
+  {
+    "logo":"simple-icons:astro",
+    "text":"Astro"
+  },
+  {
     "logo":"logos:react",
     "text":"React"
   },
   {
-    "logo":"logos:vue",
-    "text":"Vue"
+    "logo":"cib:next-js",
+    "text":"Nextjs"
   },
   {
-    "logo":"logos:nodejs-icon",
-    "text":"Node.js"
+    "logo":"logos:flutter",
+    "text":"Flutter"
+  },
+  {
+    "logo":"simple-icons:notion",
+    "text":"Notion"
+  },
+  {
+    "logo":"logos:figma",
+    "text":"Figma"
   }
 ]

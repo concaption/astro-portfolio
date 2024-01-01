@@ -1,12 +1,12 @@
 [
   {
-    "name": "assets-nl-scrapper",
-    "stars": 0,
-    "url": "https://github.com/concaption/assets-nl-scrapper",
-    "description": "python class to automate creating building in assets.nl",
+    "name": "pepsico-lab-potato-chips-quality-control",
+    "stars": 5,
+    "url": "https://github.com/concaption/pepsico-lab-potato-chips-quality-control",
+    "description": "A deep learning based approach to inspecting the quality of the potato using impages gained through a Jetson Nano enabled classifier.",
     "languages": [
-      "python",
-      "selenium"
+      "tensorflow",
+      "deaplearning"
     ],
     "role": "author"
   }

@@ -24,7 +24,7 @@ import { author } from "@data/socials";
         {author}
       </h1>
       <p class="mb-4 dark:text-zinc-300 text-zinc-700">
-        Co building at <a
+        Co builder at <a
           href="https://buildberg.co"
           target="_blank"
           rel="noopener noreferrer"
@@ -32,9 +32,8 @@ import { author } from "@data/socials";
         >
       </p>
       <p
-        class="max-w-prose font-normal dark:text-zinc-400 text-zinc-600 sm:max-w-sm md:max-w-xl leading-relaxed"
+        class="mb-4 max-w-prose font-normal dark:text-zinc-400 text-zinc-600 sm:max-w-sm md:max-w-xl leading-relaxed"
       >
-        Welcome to my slice of the internet!
         I am a passionate learner who refuses to settle for mediocrity.
         I previously helped 
         <a
@@ -72,23 +71,20 @@ import { author } from "@data/socials";
       <p
         class="max-w-prose font-normal dark:text-zinc-400 text-zinc-600 sm:max-w-sm md:max-w-xl leading-relaxed"
       >
-        I live in Lahore Pakistan and spend my time experimenting.
-      </p>
-    </div>
+        I love to think that I live in a minecraft server where I can build anything I want.
   </header>
   <section class="mt-10 sm:mt-14" aria-labelledby="section-title">
     <h2
       class="dark:text-zinc-300 text-zinc-700 mb-4 text-2xl font-bold tracking-tight"
       id="section-title"
     >
-      Favorite technologies
+      Technologies I have used
     </h2>
     <p
       class="max-w-prose mb-8 font-normal dark:text-zinc-400 text-zinc-600 leading-relaxed"
     >
-      I love exploring new libraries, programing languages and frameworks. Here
-      is a list of technologies that I have worked with at school, side projects
-      and open source.
+      I love exploring new libraries, programing languages and frameworks. Here is a random list of
+      some tools / libraries and stuff that I have used previously (just to fill up this space).
     </p>
     <ul class="grid grid-cols-1 gap-4 sm:grid-cols-2">
       {technologies.map((tech) => <Skill text={tech.text} logo={tech.logo} />)}

@@ -4,9 +4,9 @@ export const author = "Usama Navid";
 export const defaultMeta = {
   title: "Usama Navid",
   description:
-    "Welcome to my personal website! I am a software engineering student. I'm passionate about building software that helps developers to be more productive",
+    "Problem agnostic multi-disciplinary engineer with a passion for building products that make a difference.",
   ogImage: {
     src: "/static/banner.png",
-    alt: "Photo of the author smiling",
+    alt: "Photo of Usama Navid",
   },
 };
