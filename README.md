@@ -2,6 +2,12 @@
 ![Screenshot](/screenshot.png)
 
 
+## Todo
+[ ] Add GTM
+[ ] Complete certificates section
+[ ] Improve rpojects section
+[ ] Better color combination for dark mode
+
 ## Getting started
 
 To get started, run the following commands:
