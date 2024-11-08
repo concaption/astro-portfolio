@@ -8,17 +8,17 @@
     "text": "Blog"
   },
   {
-    "href": "/bookshelf/",
-    "text": "Bookshelf"
-  },
-  {
-    "href": "/certificates/",
-    "text": "Certificates"
-  },
-  {
     "href": "https://www.x.com/concaption",
     "rel": "noopener noreferrer",
     "target": "_blank",
     "text": "𝕏"
+  },
+  {
+    "href": "/bookshelf/",
+    "text": "Books"
+  },
+  {
+    "href": "/certificates/",
+    "text": "Certificates"
   }
 ]
